@@ -1865,34 +1865,10 @@
 		)
 	)
 	(junction
-		(at 144.78 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1e7206ce-042a-4bc7-84b2-27ed6172f0c5")
-	)
-	(junction
-		(at 176.53 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "42f1f262-0b49-43a6-81fa-64cd1cc0c2f8")
-	)
-	(junction
 		(at 144.78 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "50efb21f-81ec-4b64-a636-31919e8920ef")
-	)
-	(junction
-		(at 208.28 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "75abe95e-b2a5-48a3-848f-2ce620232d48")
-	)
-	(junction
-		(at 113.03 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "877d3d59-0af7-4a39-9d80-8fdcef7db353")
 	)
 	(junction
 		(at 208.28 64.77)
@@ -1907,22 +1883,10 @@
 		(uuid "ab3e75f6-0824-4779-8bef-947c2cc4c792")
 	)
 	(junction
-		(at 240.03 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ac227faf-63d9-4224-9c63-d1272ccb4357")
-	)
-	(junction
 		(at 176.53 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bb04a9fd-08b2-4a4a-b0d2-e6ca19f707dc")
-	)
-	(junction
-		(at 125.73 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bc0bbf08-6f43-4371-b4ce-7781a373a565")
 	)
 	(junction
 		(at 24.13 74.93)
@@ -2284,6 +2248,28 @@
 			)
 		)
 	)
+	(global_label "boost out GND"
+		(shape input)
+		(at 113.03 85.09 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1d6adc35-da72-4ada-9563-51753fffe8f4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 113.03 102.1054 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "boost out +5V"
 		(shape input)
 		(at 38.1 35.56 180)
@@ -2372,6 +2358,28 @@
 			)
 		)
 	)
+	(global_label "boost out GND"
+		(shape input)
+		(at 208.28 85.09 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2cdb03a0-26d7-40b1-b9ab-00fbe26267a0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 208.28 102.1054 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LED3"
 		(shape input)
 		(at 168.91 77.47 180)
@@ -2416,6 +2424,28 @@
 			)
 		)
 	)
+	(global_label "boost out GND"
+		(shape input)
+		(at 125.73 132.08 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4feb65b2-09bd-477e-9527-a89c90b8dab3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 125.73 149.0954 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LED0"
 		(shape input)
 		(at 118.11 124.46 180)
@@ -2429,6 +2459,50 @@
 		(uuid "64870eda-265c-4c84-a789-9f1783aa0b43")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 110.4682 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "boost out GND"
+		(shape input)
+		(at 39.37 80.01 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "77b57eb7-a110-4868-866f-e5c5f31e4c90")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 39.37 97.0254 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "boost out GND"
+		(shape input)
+		(at 144.78 85.09 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7a2a3826-d144-401c-a80f-9bebea7c443e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 144.78 102.1054 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2473,6 +2547,28 @@
 		(uuid "8225fea3-9f7f-4bf3-b1cb-e20eba88d925")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 113.03 40.1346 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "boost out GND"
+		(shape input)
+		(at 58.42 116.84 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "828c9b5e-c322-42f6-a516-86e57dddbf93")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 58.42 99.8246 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2539,6 +2635,28 @@
 		(uuid "8e2d43bf-be98-4a29-bf81-888df5d5ac80")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 24.13 92.1271 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "boost out GND"
+		(shape input)
+		(at 176.53 85.09 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9533d51d-3954-4133-898f-82d757545d70")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 176.53 102.1054 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2790,6 +2908,28 @@
 			)
 		)
 	)
+	(global_label "boost out GND"
+		(shape input)
+		(at 240.03 85.09 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f2a177c0-1431-4789-adbf-49d165c74d52")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 240.03 102.1054 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LED5"
 		(shape input)
 		(at 232.41 77.47 180)
@@ -2935,7 +3075,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "Library:SolderWirePad_1x01_SMD_2x5mm"
 			(at 245.11 64.77 0)
 			(effects
 				(font
@@ -3081,7 +3221,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "Library:SolderWirePad_1x01_SMD_2x5mm"
 			(at 118.11 64.77 0)
 			(effects
 				(font
@@ -3115,72 +3255,6 @@
 			(project "arcreactor"
 				(path "/68b3a5ab-fa69-4b61-864d-36ad461874e8"
 					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 240.03 85.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1ae93ad6-db61-4f01-813f-70249f49f85a")
-		(property "Reference" "#PWR010"
-			(at 240.03 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 240.03 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 240.03 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 240.03 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 240.03 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c5e58acb-09c8-43a8-b237-f0469ccd04a8")
-		)
-		(instances
-			(project "arcreactor"
-				(path "/68b3a5ab-fa69-4b61-864d-36ad461874e8"
-					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -3430,7 +3504,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "Library:SolderWirePad_1x01_SMD_2x5mm"
 			(at 149.86 64.77 0)
 			(effects
 				(font
@@ -3497,7 +3571,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "Library:SolderWirePad_1x01_SMD_2x5mm"
 			(at 118.11 57.15 0)
 			(effects
 				(font
@@ -3765,7 +3839,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 26.67 80.0099 0)
 			(effects
 				(font
@@ -3917,7 +3991,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "Library:SolderWirePad_1x01_SMD_2x5mm"
 			(at 213.36 57.15 0)
 			(effects
 				(font
@@ -4045,7 +4119,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "33k"
 			(at 26.67 72.3899 0)
 			(effects
 				(font
@@ -4273,7 +4347,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "Library:SolderWirePad_1x01_SMD_2x5mm"
 			(at 181.61 64.77 0)
 			(effects
 				(font
@@ -4340,7 +4414,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "Library:SolderWirePad_1x01_SMD_2x5mm"
 			(at 213.36 64.77 0)
 			(effects
 				(font
@@ -4547,138 +4621,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 58.42 116.84 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "861f6cd3-1cd0-4ad4-b6b8-16d53ad83217")
-		(property "Reference" "#PWR015"
-			(at 58.42 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 58.42 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 58.42 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 58.42 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 58.42 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5667d355-f4d8-4c12-8bb0-c0dcab801bff")
-		)
-		(instances
-			(project "arcreactor"
-				(path "/68b3a5ab-fa69-4b61-864d-36ad461874e8"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 208.28 85.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "86955db5-7b11-499a-9c36-db0b2779b933")
-		(property "Reference" "#PWR08"
-			(at 208.28 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 208.28 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 208.28 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 208.28 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 208.28 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4084c156-5f1e-4012-b9a2-ad1c743fabd6")
-		)
-		(instances
-			(project "arcreactor"
-				(path "/68b3a5ab-fa69-4b61-864d-36ad461874e8"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 125.73 115.57 0)
 		(unit 1)
@@ -4743,72 +4685,6 @@
 			(project "arcreactor"
 				(path "/68b3a5ab-fa69-4b61-864d-36ad461874e8"
 					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 39.37 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8cf0f817-0252-4091-8569-967e6b8d8547")
-		(property "Reference" "#PWR011"
-			(at 39.37 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 39.37 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 39.37 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 39.37 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 39.37 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d21e7bc9-144f-4e2e-ac85-8b6ae8cc444a")
-		)
-		(instances
-			(project "arcreactor"
-				(path "/68b3a5ab-fa69-4b61-864d-36ad461874e8"
-					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -4912,7 +4788,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "Library:SolderWirePad_1x01_SMD_2x5mm"
 			(at 181.61 57.15 0)
 			(effects
 				(font
@@ -5049,7 +4925,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "Library:SolderWirePad_1x01_SMD_2x5mm"
 			(at 245.11 57.15 0)
 			(effects
 				(font
@@ -5186,7 +5062,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "Library:SolderWirePad_1x01_SMD_2x5mm"
 			(at 149.86 57.15 0)
 			(effects
 				(font
@@ -5220,72 +5096,6 @@
 			(project "arcreactor"
 				(path "/68b3a5ab-fa69-4b61-864d-36ad461874e8"
 					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 113.03 85.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bee82d36-ef89-4162-a0cd-5d21169bd263")
-		(property "Reference" "#PWR01"
-			(at 113.03 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 113.03 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.03 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 113.03 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "73b719e3-0ceb-40f4-a576-8cfada82c528")
-		)
-		(instances
-			(project ""
-				(path "/68b3a5ab-fa69-4b61-864d-36ad461874e8"
-					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -5426,72 +5236,6 @@
 			(project "arcreactor"
 				(path "/68b3a5ab-fa69-4b61-864d-36ad461874e8"
 					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 125.73 132.08 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d1b7fe51-838b-4e52-ab62-9b5fb76fec26")
-		(property "Reference" "#PWR013"
-			(at 125.73 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 125.73 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 125.73 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 125.73 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 125.73 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4ecf02f9-a513-4388-b7e1-db65875f73b7")
-		)
-		(instances
-			(project "arcreactor"
-				(path "/68b3a5ab-fa69-4b61-864d-36ad461874e8"
-					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -5717,72 +5461,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 144.78 85.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e411a231-72fe-4c57-86b0-df3013c28ac1")
-		(property "Reference" "#PWR04"
-			(at 144.78 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 144.78 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 144.78 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 144.78 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0c7a11eb-e831-4cc3-9781-982f3cbe43ce")
-		)
-		(instances
-			(project "arcreactor"
-				(path "/68b3a5ab-fa69-4b61-864d-36ad461874e8"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 137.16 81.28 0)
 		(unit 1)
@@ -5993,72 +5671,6 @@
 			(project "arcreactor"
 				(path "/68b3a5ab-fa69-4b61-864d-36ad461874e8"
 					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 176.53 85.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eeccbf82-1488-4d8d-843f-02673d94d83f")
-		(property "Reference" "#PWR06"
-			(at 176.53 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 176.53 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 176.53 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 176.53 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 176.53 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c48a1686-ae64-4dc0-a0b8-65bb60f4fdb8")
-		)
-		(instances
-			(project "arcreactor"
-				(path "/68b3a5ab-fa69-4b61-864d-36ad461874e8"
-					(reference "#PWR06")
 					(unit 1)
 				)
 			)
