@@ -11,7 +11,7 @@ The design focuses on a premium, compact, and fully wireless solution for a dyna
 * **Amovibility & Latency:** Designed to be easily detached from its magnetic display stand, maintaining the light effect for a short duration thanks to the embedded power system.
 * **Microcontroller:** ESP32-C3 Mini for high-speed PWM control (5 dedicated LEDC channels) and battery monitoring (ADC).
 * **SMD Component Integration:** Custom circular PCB design utilizing SOT-23 MOSFETs for minimal footprint and optimal soldering simplicity.
-* **Optics:** Use of UV Resin casting with a 3D-printed TPU mold for superior light diffusion and visual quality.
+* **Optics:** Use of a 3D-printed transparent PETG for superior light diffusion and visual quality.
 
 ## Project Files Included
 This repository is organized into the following directories:
